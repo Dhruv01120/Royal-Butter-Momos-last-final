@@ -1,0 +1,155 @@
+ /* Import a clean, readable font */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7; /* Light background */
+    color: #333;
+}
+
+header {
+    background-color: #922020; /* Deep red color, inspired by the logo */
+    color: #fff;
+    padding: 20px 10px;
+    text-align: center;
+    border-bottom: 5px solid #ffcc00; /* Yellow accent */
+}
+
+header h1 {
+    font-size: 1.8em;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header p {
+    margin: 5px 0 0 0;
+    font-size: 0.9em;
+}
+
+.address {
+    font-size: 0.8em;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.menu-container {
+    padding: 10px 15px;
+}
+
+section {
+    margin-bottom: 25px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 1.4em;
+    color: #922020; /* Deep red for section titles */
+    border-bottom: 2px solid #ffcc00;
+    padding-bottom: 5px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+/* Menu List Styling */
+.menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.item-name {
+    display: flex; /* Use flexbox to align name and price */
+    justify-content: space-between; /* Space them out */
+    padding: 10px 0;
+    border-bottom: 1px dashed #eee;
+    font-size: 1.0em;
+    font-weight: 500;
+}
+
+.item-name:last-child {
+    border-bottom: none;
+}
+
+.price {
+    color: #333;
+    font-weight: 700;
+    min-width: 60px; /* Ensure price has enough space */
+    text-align: right;
+}
+
+.sub-detail {
+    display: block;
+    font-size: 0.75em;
+    color: #777;
+    font-weight: 400;
+    margin-top: 2px;
+}
+
+/* Highlighted Sections (Chur Chur Naan) */
+.highlight-section {
+    background-color: #ffcc00; /* Yellow/Gold background */
+    text-align: center;
+    padding: 20px;
+}
+
+.highlight-section h2 {
+    color: #922020;
+    border-bottom: none;
+}
+
+.highlight-price {
+    font-size: 2.5em;
+    font-weight: 900;
+    color: #922020;
+    margin: 5px 0;
+}
+
+.highlight-detail {
+    font-size: 0.9em;
+    color: #333;
+    font-weight: 500;
+}
+
+/* Special Offer Box */
+.offer-box {
+    background-color: #e6f7ff; /* Light blue/cyan for contrast */
+    text-align: center;
+    border: 2px solid #007bff;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.offer-box p {
+    margin: 5px 0;
+    font-weight: 500;
+}
+
+.offer-box strong {
+    color: #922020;
+    font-size: 1.1em;
+}
+
+.till-date {
+    font-style: italic;
+    color: #007bff;
+    margin-top: 10px !important;
+}
+
+/* Footer & Call to Action */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 10px;
+    margin-top: 20px;
+}
+
+.call-to-action {
+    font-size: 1.4em;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
